@@ -6,11 +6,10 @@
 **GitHub:** https://github.com/Psairon
 **Сodewars:** https://www.codewars.com/users/Psairon
 
-
 ## About Me 
 My main advantage is independence. While classmates ask me how the problem is solved, I solve my problems myself. I'm 25 and I have a lot of experience in different specialties, but at some point I realized that my personality would be good for programming. Since I was educated in the field of design and worked with HTML, CSS and JavaScript at the university, my choice immediately fell on Frontend.
 
-**My strengths:**
+#### My strengths:
 • Fast learner
 • Developed soft skills
 • Logical thinking
@@ -25,7 +24,6 @@ My main advantage is independence. While classmates ask me how the problem is so
 
 ## Code example:
 Digits explosion KATA from CODEWARS: *Given a string made of digits [0-9], return a string where each digit is repeated a number of times equals to its value.*
-
  ```
  function explode(s) {
   let result = '';
