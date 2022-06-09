@@ -7,13 +7,13 @@
 * **Сodewars:** https://www.codewars.com/users/Psairon
 
 ## About Me 
-My main advantage is independence. While classmates ask me how the problem is solved, I solve my problems myself. I'm 25 and I have a lot of experience in different specialties, but at some point I realized that my personality would be good for programming. Since I was educated in the field of design and worked with HTML, CSS and JavaScript at the university, my choice immediately fell on Frontend.
+My best feature is independence. While all my classmates ask me how to solve the problem, I already solve it by myself. I'm 25 and I have a lot of experience in different specialties. But at some point I realized that programming is my cup of tea. Because I was educated in design and at the university I worked with applications like HTML, CSS and JavaScript, my choice immediately fell to Frontend developer. 
 
 #### My strengths:
-*  Fast learner  
-* Developed soft skills  
-* Logical thinking  
-* Ability to use Google
+* I'm a fast learner;  
+* I have well-developed soft skills;  
+* I can boast of logical thinking;  
+* And last but not least: I'am a skilled Google user.  
 
 ## Skills:
 * HTML5, CSS3;  
