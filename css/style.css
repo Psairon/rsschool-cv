@@ -237,6 +237,15 @@ p {
     text-align: center; 
 }
 
+.icons {
+    color: white;
+    margin: 0px 20px;
+    padding: 0;
+    padding-top: 20px;
+    border: 0;
+    text-align: center; 
+}
+
 .projects-cv {
     text-align: center; 
 }
