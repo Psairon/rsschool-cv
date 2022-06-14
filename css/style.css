@@ -22,6 +22,22 @@ div {
     display: block;
 }
 
+.nav {
+    margin-top: 50%;
+    margin-left: 10px;
+    width: 400px;
+    font-size: 13px;
+    font-family: "Rubik";
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
 .container-centered {
     width: 790.5px;
     font-size: 18px;
@@ -48,10 +64,7 @@ div {
 }
 
 .about-me {
-    margin-top: 150px; 
-    font-size: 22px;
-    font-family: "Rubik";
-    color: white;
+
 }
 
 h1 {
@@ -178,7 +191,6 @@ p {
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-bottom: 11px;
 }
 
 .description {
@@ -262,8 +274,22 @@ li img {
     margin-top: 8px;
 }
 
+li {
+    margin-right: 15px;
+    margin-top: 8px;
+}
+
 ul {
     list-style-type: square;
+}
+
+ol {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0%;
 }
 
 .container-cv {
@@ -306,66 +332,3 @@ ul {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
-
-/* .img-for-name {
-    position: absolute;
-    margin-top: 130px;
-    margin-left: 285px;
-}
-
-.container-center {
-	width: 750px;
-	margin: 0 auto;
-    border: 20px solid white;
-    background-color: white;
-    display: flex;
-}
-
-.desc-left {
-	width: 30%;
-    background-color: #3d4144;
-    margin-left: 20px;
-    list-style-type: none;
-}
-
-ul {
-    color: white;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-li p {
-    display: inline;
-    vertical-align: middle;
-}
-
-li img {
-    vertical-align: middle;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 8px;
-}
-
-.desc-right {
-	width: 70%;
-    background-color: #3d4144;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 15px;
-    font-family: "Quicksand";
-    color: white;
-    letter-spacing: 1px;
-}
-
-
-.description {
-	display: flex;
-	justify-content: space-between;
-	width: 790.5px;
-	margin: 0 auto;
-    background-color: white;
-    font-size: 15px;
-    font-family: "Quicksand";
-    color: white;
-} */
