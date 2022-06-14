@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+    background-color: #f5f5f5;
+  }
+
+A {
+    color: white; /* Цвет ссылок */
+   }
+A:visited {
+    color: #cecece; /* Цвет посещенных ссылок */
+   }
+A:active {
+    color: #ffff00; /* Цвет активных ссылок */
+   }
+
+div {
+    display: block;
+}
+
+.nav {
+    margin-top: 50%;
+    margin-left: 10px;
+    width: 400px;
+    font-size: 13px;
+    font-family: "Rubik";
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-centered {
+    width: 790.5px;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.name {
+    position: absolute;
+    margin-top: 132px;
+    margin-left: 309px;
+    color: black;
+    width: 400px;
+}
+
+.info {
+    background-color: #a8acb5;
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 100px;
+}
+
+h1 {
+    line-height: 80%;
+    letter-spacing: 10px;
+    font-size: 32px;
+    font-family: "Rubik";
+    font-weight: normal;
+} 
+
+h2 {
+    font-family: "Rubik";
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: left;
+    margin-left: 20%;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 15px;
+    font-family: "Rubik";
+    font-weight: normal;
+    margin-left: 56px;
+
+}
+
+.header-text {
+    font-size: 13px;
+    font-family: "Quicksand";
+    color: white;
+    margin-right: 9px;
+    margin-left: 9px;
+    margin-bottom: 0px;
+    font-weight: normal; 
+    text-align: justify;
+}
+
+.text {
+    font-size: 15px;
+    font-family: "Quicksand";
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    font-weight: normal; 
+    text-align: justify;
+}
+
+.list {
+    margin-bottom: 5px;
+    margin-right: 13%;
+}
+
+p {
+    text-align: justify;
+}
+
+.line {
+    color: white; 
+    size: 5px;
+    width: 80%;
+    border: none;
+	border-width: 0 0 3px;
+	border-style: solid;
+	background-position: 50%;
+    text-align: right; 
+    margin-right: 0; 
+    margin-bottom: 25px;
+}
+
+.about-me {
+    background-color: #a8acb5;
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 100px;
+}
+
+.img-for-name {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 285px;
+}
+
+.container-center {
+	width: 750px;
+	margin: 0 auto;
+    background-color: white;
+    display: flex;
+}
+
+.color2:hover {
+    background:#7f5088;
+}
+
+.desc-left {
+    background-color: #3d4144;
+    margin-left: 20px;
+}
+
+.desc-right {
+    background: #3d4144;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.desc-left2 { /*настройки светло-серых блоков*/ 
+    background-color: #a8acb5;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.desc-right2 { /*настройки светло-серых блоков*/ 
+    background-color: #a8acb5;
+    margin: 20px;
+}
+
+.desc-left-social-media { 
+    background-color: #a8acb5;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+	width: 790.5px;
+	margin: 0 auto;
+    background-color: white;
+}
+
+.container { /*новый контейнер, который делит на две части main*/
+    display: flex;
+    margin: 0 auto;
+    width: 790.5px;
+}
+
+.description-left { /*новый контейнер, который идёт по левой стороне*/
+	justify-content: space-between;
+	width: 36%;
+	margin: 0 auto;
+    background-color: white;
+}
+
+.description-right { /*новый контейнер, который идёт по правой стороне*/
+	justify-content: space-between;
+	width: 64%;
+	margin: 0 auto;
+    background-color: white;
+}
+
+.quote { /*Цитата*/
+    margin: 0;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 14px;
+  }
+
+.contacts {
+    color: white;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center; 
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.media {
+    color: white;
+    margin: 0 20px;
+    padding: 0;
+    border: 0;
+    text-align: center; 
+}
+
+.icons {
+    color: white;
+    margin: 0px 20px;
+    padding: 0;
+    padding-top: 20px;
+    border: 0;
+    text-align: center; 
+}
+
+.projects-cv {
+    text-align: center; 
+}
+
+li p {
+    display: inline;
+    vertical-align: middle;
+}
+
+li img {
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+li {
+    margin-right: 15px;
+    margin-top: 8px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0%;
+}
+
+.container-cv {
+    position: relative;
+    width: 70%;
+    margin-left: 20%;
+  }
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #7f5088;
+    opacity: 0.9;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+.container-cv:hover .overlay {
+    height: 100%;
+  }
+
+.cv {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }

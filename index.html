@@ -1,1 +1,179 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Shalkevich Arina</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container-centered">
+    <header> 
+            <div class="container-center">
+                <img src="images/ava.png" alt="photo" width="337" height="450">
+                <img class="img-for-name" src="images/name.png" alt="name" width="375">
+                <div class="name">
+                    <h1 class="h1"><b>ARINA</b> SHALKEVICH</h1>
+                    <h3 class="h3">JUNIOR FRONTEND DEVELOPER</h3>
+                </div>
+                <div class="info">
+                    <nav class="nav">
+                        <ol>
+                            <li><a href="#aboutme">ABOUT ME</a></li>
+                            <li><a href="#mystrengths">MY STRENGTHS</a></li>
+                            <li><a href="#code">CODE EXAMPLE</a></li>
+                            <li><a href="#Projects">PROJECTS</a></li>
+                            <li><a href="#Courses">Courses</a></li>
+                            <li><a href="#contact">CONTACT INFO</a></li>
+                            <li><a href="#skills">SKILLS</a></li>
+                            <li><a href="#Languages">Languages</a></li>
+                        </ol>
+                        <hr class="line">
+                    </nav>
+                </div>
+            </div>   
+    </header>
+    <main>
+        <div class="container">
+            <div class="description-left">
+                <div class="desc-left color2">
+                    <h2 class="h2" id="Courses">Courses</h2>
+                    <hr class="line">
+                    <ul class="text">
+                        <li class="list">HTML and CSS in university</li>
+                        <li class="list">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                        <li class="list">HTML and CSS Tutorials on w3schools</li>
+                        <li class="list">JavaScript Manual on learnjavascript.ru</li>
+                    </ul>
+                    <br>
+                </div>
+                <div class="desc-left2 color2">
+                    <h2 id="contact">CONTACT INFO</h2>
+                    <hr class="line">
+                    <ul class="contacts">
+                        <li class="contact">
+                            <p><a href="tel:+375339163673">+375(33)-916-36-73</a></p>
+                        </li>
+                        <li class="contact">
+                            <p class="text">ArinaShalkevich@gmail.com</p>
+                        </li>
+                        <li class="contact">
+                            <p class="text">Belarus, Minsk</p>
+                        </li>
+                    </ul>
+                    <br>     
+                </div>   
+                <div class="desc-left color2">
+                    <h2 class="h2" id="skills">SKILLS</h2>
+                    <hr class="line">
+                    <ul class="text">
+                        <li class="list">HTML5</li>
+                        <li class="list">CSS3</li>
+                        <li class="list">JavaScript Basics</li>
+                        <li class="list">Git, GitHub</li>
+                        <li class="list">VS Code</li>
+                        <li class="list">Adobe Photoshop</li>
+                    </ul>   
+                    <br>
+                    <p class="contacts"><img src="https://www.codewars.com/users/Psairon/badges/micro" alt=""></p>
+                    <br>
+                 </div>    
+                 <div class="desc-left color2">
+                    <h2 class="h2" id="Languages">Languages</h2>
+                    <hr class="line">
+                    <ul class="text">
+                        <li class="list">English – A2</li>
+                        <li class="list">Russian – Native</li>
+                    </ul> 
+                    <br>
+                </div>     
+                <div class="desc-left-social-media color2">
+                    <h2 class="h2" id="media">social media:</h2>
+                    <hr class="line">
+                        <div class="social-media">
+                            <div class="media"><a href="https://t.me/postbeat"><img src="images/telega.png" alt="Telegram Icon" width="40" height="40"></a></div>
+                            <div class="media"><a href="https://github.com/Psairon"> <img src="images/github.png" alt="GitHub Icon" width="40" height="40"></a></div>
+                            <div class="media"><a href="https://www.codewars.com/users/Psairon"><img src="images/codewars.png" alt="codewars Icon" width="40" height="40"></a> </div>
+                        </div>
+                    <br> 
+                </div>    
+            </div>    
+            <div class="description-right">
+                <div class="desc-right color2">
+                    <h2 id="aboutme">ABOUT ME</h2>
+                    <hr class="line">
+                        <p class="text">My best feature is independence. While all my classmates ask me how to solve the problem, I already solve it by myself. I'm 25 and I have a lot of experience in different specialties. But at some point I realized that programming is my cup of tea. </p>
+                    <br>
+                </div>
+                <div class="desc-right2 color2">
+                    <h2 id="mystrengths">MY STRENGTHS</h2>
+                    <hr class="line">
+                    <ul>
+                        <li>
+                            <p class="text"> I'm a fast learner;</p>
+                        </li>
+                        <li>
+                            <p class="text">I have well-developed soft skills;</p>
+                        </li>
+                        <li>
+                            <p class="text">I can boast of logical thinking;</p>
+                        </li>
+                        <li>
+                            <p class="text">And last but not least: I'am a skilled Google user.</p>
+                        </li>
+                    </ul>
+                    <br>
+                </div> 
+                <div class="desc-right color2">
+                    <h2 class="h2" id="code">CODE EXAMPLE</h2>
+                    <hr class="line">
+                    <p class="text">Digits explosion KATA from CODEWARS: Given a string made of digits [0-9], return a string where each digit is repeated a number of times equals to its value.</p>
+                    <figure class="quote">
+                        <blockquote>
+                            <pre>
+function explode(s) { <!-- пересмотреть пунктуацию JS кода -->
+    let result = '';
+            
+    for(let i = 0; i &lt; s.length; ++i) {
+        if (+s[i] === 0){
+          result = result + '';
+        } else {
+          result = result + s[i].repeat(+s[i]);
+        }
+    }
+return result;
+}
+                            </pre>
+                        </blockquote>
+                    </figure>
+                </div> 
+                <div class="desc-right2">
+                    <h2 id="Projects">Projects</h2>
+                    <hr class="line">
+                        <div class="container-cv">
+                            <a href="https://github.com/Psairon/rsschool-cv/blob/rsschool-cv-html/index.html"><img src="images/CV.png" alt="CV" width="300" class="image">
+                                <div class="overlay">
+                                <div class="cv">This is my CV!</div>
+                                </div> 
+                            </a>
+                        </div>
+                    <br>
+                </div> 
+            </div>     
+        </div>
+    </main>
+    <footer>
+        <div>
+            <div class="desc-right">
+                <div class="social-media">
+                    <div class="icons"><a href="https://github.com/Psairon"> <img src="images/github.png" alt="GitHub Icon" width="40" height="40"></a></div>
+                    <div class="icons"><p class="text">© 2022</p></div>
+                    <div class="icons"><a href="https://rs.school/js/"><img src="images/rsschool.svg" alt="codewars Icon" width="100"></a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
