@@ -63,10 +63,6 @@ a {
     margin-top: 100px;
 }
 
-.about-me {
-
-}
-
 h1 {
     line-height: 80%;
     letter-spacing: 10px;
@@ -109,8 +105,8 @@ h3 {
     font-size: 15px;
     font-family: "Quicksand";
     color: white;
-    margin-right: 9px;
-    margin-left: 9px;
+    margin-right: 20px;
+    margin-left: 20px;
     margin-bottom: 0px;
     font-weight: normal; 
     text-align: justify;
@@ -138,7 +134,7 @@ p {
     margin-bottom: 25px;
 }
 
-.abaut-me {
+.about-me {
     background-color: #a8acb5;
     margin: 0 auto;
     width: 600px;
